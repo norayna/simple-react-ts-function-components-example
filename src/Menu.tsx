@@ -1,4 +1,4 @@
-const Menu = () => {
+const Menu = (): JSX.Element => {
     // doesn't have to be a real menu for this exercise
     return (
         <ul>

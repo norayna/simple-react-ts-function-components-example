@@ -5,7 +5,7 @@ interface MainProps {
     user: string
 }
 
-const Main = (props: MainProps) => {
+const Main = (props: MainProps): JSX.Element => {
     return (
         <main>
             <Greeting user={props.user} />

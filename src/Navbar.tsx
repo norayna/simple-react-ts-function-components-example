@@ -5,7 +5,7 @@ interface NavbarProps {
     user: string
 }
 
-const Navbar = (props: NavbarProps) => {
+const Navbar = (props: NavbarProps): JSX.Element => {
     return (
         <nav>
             <Menu />
